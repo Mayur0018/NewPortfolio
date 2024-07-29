@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import img2 from "../images/flagapp.jpg";
 const Projects = () => {
   // State to manage modal visibility
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -39,11 +39,11 @@ const Projects = () => {
           </a>
           <a
             href="#_"
-            onClick={() => handleImageClick('Project 2', 'https://github.com/UnwrappedDesign/lexington-tutorials/tree/main/src/pages/simplified-cards')}
+            onClick={() => handleImageClick('Project 2', 'https://flagapp-mayurs-projects-9bcb5f0d.vercel.app/')}
             className="relative overflow-hidden rounded-xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?q=80&amp;w=2672&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={img2}
               className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-110"
               alt="Project 2"
             />
