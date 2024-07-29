@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import img2 from "../images/flagapp.jpg";
+import img3 from "../images/E-Commerce011.jpg";
 const Projects = () => {
   // State to manage modal visibility
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -50,11 +51,11 @@ const Projects = () => {
           </a>
           <a
             href="#_"
-            onClick={() => handleImageClick('Project 3', 'https://github.com/UnwrappedDesign/lexington-tutorials/tree/main/src/pages/simplified-cards')}
+            onClick={() => handleImageClick('Project 3', 'https://mayur0018.github.io/mayurpaushak.github.io/')}
             className="relative overflow-hidden rounded-xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1586996292898-71f4036c4e07?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={img3}
               className="w-full h-full object-cover transform transition-transform duration-500 hover:scale-110"
               alt="Project 3"
             />
