@@ -29,7 +29,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <a
             href="#_"
-            onClick={() => handleImageClick('Project 1', '')}
+            onClick={() => handleImageClick('Project 1', 'https://mayur0018.github.io/mayurpaushak.github.io/')}
             className="relative overflow-hidden rounded-xl"
           >
             <img
@@ -62,7 +62,7 @@ const Projects = () => {
           </a>
           <a
             href="#_"
-            onClick={() => handleImageClick('Project 4', 'https://github.com/UnwrappedDesign/lexington-tutorials/tree/main/src/pages/simplified-cards')}
+            onClick={() => handleImageClick('Project 4', '')}
             className="relative overflow-hidden rounded-xl"
           >
             <img
