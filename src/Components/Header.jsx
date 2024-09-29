@@ -58,7 +58,9 @@ const Header = () => {
 
       {/* Navigation */}
       <motion.nav
-        className={`fixed top-0 right-0 w-full lg:relative lg:flex lg:items-center lg:w-auto bg-gradient-to-r from-gray-900 to-slate-700 lg:bg-transparent ${menuOpen ? 'block' : 'hidden'} lg:block`}
+        className={`fixed top-0 right-0 w-full lg:relative lg:flex lg:items-center lg:w-auto bg-gradient-to-r from-gray-900 to-slate-700 lg:bg-transparent ${
+          menuOpen ? "block" : "hidden"
+        } lg:block`}
         variants={navVariants}
         initial="hidden"
         animate="visible"

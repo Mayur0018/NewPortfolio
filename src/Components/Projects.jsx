@@ -18,15 +18,15 @@ const Projects = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-gray-900 to-slate-700 overflow-hidden">
+    <section className="bg-gradient-to-br from-gray-900 to-slate-700 overflow-hidden" id='projects'>
       <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
         {/* Centered Heading */}
-        <div className="text-center mb-12">
+        <div className="text-center">
           <h1 className="text-4xl font-bold text-white">Projects</h1>
         </div>
 
         {/* Grid Layout for Images */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <a
             href="#_"
             onClick={() => handleImageClick('Project 1', 'https://mayur0018.github.io/mayurpaushak.github.io/')}
