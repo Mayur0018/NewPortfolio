@@ -51,7 +51,7 @@ const Projects = () => {
           </a>
           <a
             href="#_"
-            onClick={() => handleImageClick('Project 3', 'https://mayur0018.github.io/mayurpaushak.github.io/')}
+            onClick={() => handleImageClick('Project 3', 'https://ecommerce-web-kappa-nine.vercel.app/')}
             className="relative overflow-hidden rounded-xl"
           >
             <img
